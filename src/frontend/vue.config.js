@@ -1,13 +1,4 @@
-const path = require('path')
-
-module.exports = {
-  outputDir: path.resolve(__dirname, "../" + "main/resources/static"),
-  devServer: {
-    proxy: {
-      '/api': {
-        target: 'http://localhost:9000/',
-        changeOrigin: true
-      },
-    }
-  }
-};
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true
+})

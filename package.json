@@ -4,6 +4,7 @@
     "vue-cli-plugin-axios": "~0.0.4"
   },
   "dependencies": {
+    "nouislider": "^15.6.1",
     "vue-router": "^4.0.13"
   }
 }

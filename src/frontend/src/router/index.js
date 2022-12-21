@@ -1,8 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Main from "./views/MainView.vue";
 import Login from "./views/LoginView.vue";
-import AxiosGet from "./views/AxiosGet.vue";
-import AxiosPost from "./views/AxiosPost.vue";
 
 const routes = [
     {
